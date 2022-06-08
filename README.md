@@ -35,7 +35,7 @@ https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabi
 $ make run-dockers
 ```
 3-2 명령어 뒤에, **s**가 붙은 명령어로, 3-1 과정을 통해 빌드된 도커 이미지 3개를 실행합니다. </br>
-Makefile 내 실행할 도커 이미지 수 및 자원 제한 값들이 설정되어 있습니다. </
+Makefile 내 실행할 도커 이미지 수 및 자원 제한 값들이 설정되어 있습니다. </br>
 현재 버전에서는 cpuset과 cpus 값을 제한하였으며, 각각 0과 0.3으로 설정되어 있습니다. (필요시 변경 가능) </br>
 
 ### 3-3. 실행 중인 도커 이미지 접근
